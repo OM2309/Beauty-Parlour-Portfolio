@@ -1,6 +1,11 @@
 import "./app/globals.css";
+import Navbar from "./components/Navbar";
 const App = () => {
-  return <></>;
+  return (
+    <>
+    <Navbar/>
+    </>
+  )
 };
 
 export default App;
