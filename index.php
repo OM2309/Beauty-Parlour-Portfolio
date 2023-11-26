@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beauty Parlour</title>
+    <title>Priya Tyagi</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css">
@@ -24,7 +24,7 @@
                 <div class="hero__content">
                     <h1> Your Big Day<br><span>in Style</span></h1>
                     <p>Come and see our bride's corner and take the opportunity to schedule your date.</p>
-                    <a href="#" class="hidden md:block text-white bg-[#75492b] hover:bg-[#75492b] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center">Contact</a>
+                    <a href="../Beauty-Parlour-Portfolio/contact.php" class="hidden md:block text-white bg-[#75492b] hover:bg-[#75492b] focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center">Contact</a>
                 </div>
             </div>
         </div>
@@ -145,12 +145,7 @@
 
     <section class="gallery section -mt-32" id="gallery">
             <div class="gallery__content">
-                <!-- <div class="row">
-                    <div class="section__title ">
-                        <h1 class='text-[#75492b] font-bold'>Gallery</h1>
-                      
-                    </div>
-                </div> -->
+           
                 <div class="gallery__list__img row container p-6">
                     <div class="gallery__img">
                         <img src="./images/foto1.png" alt="">
@@ -167,19 +162,13 @@
                     <div class="gallery__img">
                         <img src="./images/foto5.png" alt="">
                     </div>
-                    <!-- <div class="gallery__img">
-                        <img src="./images/foto6.png" alt="">
-                    </div>
-                    <div class="gallery__img">
-                        <img src="./images/foto7.png" alt="">
-                    </div>
-                    <div class="gallery__img">
-                        <img src="./images/foto8.png" alt="">
-                    </div> -->
-                </div>
-                <!-- <button class="btn">View more</button> -->
+             </div>
             </div>
         </section>
+
+
+       
+
 
         <?php include './components/Footer.php' ?>'
 

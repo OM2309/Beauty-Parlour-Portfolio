@@ -428,3 +428,54 @@ a{
     margin: 0 auto;
 }
 
+.chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+  }
+  
+  .header {
+    background-color: #075e54;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header h3 {
+    margin: 0;
+  }
+  
+  .messages {
+    height: 250px;
+    overflow-y: scroll;
+    padding: 10px;
+  }
+  
+  .input-area {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .input-area input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .input-area button {
+    padding: 8px 15px;
+    background-color: #128c7e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+
+    
