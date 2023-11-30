@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    
     <?php include './components/Navbar.php' ?>'
 
 
